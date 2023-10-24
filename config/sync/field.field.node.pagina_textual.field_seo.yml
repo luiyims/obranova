@@ -1,0 +1,21 @@
+uuid: 88230bff-c66d-45c0-9b06-9fc9cce55cb0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo
+    - node.type.pagina_textual
+  module:
+    - metatag
+id: node.pagina_textual.field_seo
+field_name: field_seo
+entity_type: node
+bundle: pagina_textual
+label: SEO
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

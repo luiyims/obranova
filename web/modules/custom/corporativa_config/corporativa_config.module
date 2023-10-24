@@ -1,0 +1,51 @@
+<?php
+
+/* Css custom theme: login and toolbar GIN */
+
+/**
+ * Implements hook_page_attachments().
+ *
+ * @param array $attachments
+ */
+
+function corporativa_config_page_attachments(array &$attachments) {
+  $theme = Drupal::theme()->getActiveTheme()->getName();
+  $account = Drupal::currentUser();
+  $route = Drupal::routeMatch();
+  if ($theme == 'gin' && $account->id() != 1) {
+    $attachments['#attached']['library'][] = 'corporativa_config/gin-theme';
+  }
+  if ($route) {
+    if ($route->getRouteName() == 'user.login' || $route->getRouteName() == 'user.register' || $route->getRouteName() == 'user.pass' || $route->getRouteName() == 'user.reset') {
+      $attachments['#attached']['library'][] = 'corporativa_config/gin-login';
+    }
+  }
+}
+
+/*
+ * Implements hook_toolbar_alter()
+ *
+ */
+ 
+function corporativa_config_toolbar_alter(&$items) {
+  $items['administration']['#attached']['library'][] = 'corporativa_config/toolbar-gin';
+}
+
+/* Fin css custom: theme, login and toolbar GIN */
+
+/* Función para ocultar botón añadir en vista admin/content del usuario rol propietario */
+
+/**
+* Implements @see hook_preprocess_HOOK().
+*/
+
+function corporativa_config_preprocess_page__admin__content(array &$variables): void {
+  $account = Drupal::currentUser();
+  if ($account->id() != 1) {
+    unset(
+    $variables['page']['content']['gin_local_actions'],
+    );
+  }
+}
+
+/* Fin función para ocultar botón añadir en vista admin/content del usuario rol propietario */

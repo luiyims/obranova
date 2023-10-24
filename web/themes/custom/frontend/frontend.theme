@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function frontend_theme_suggestions_node_alter(array &$suggestions, array $variables) {
+  $node = $variables['elements']['#node'];
+  if ($node instanceof \Drupal\node\Entity\Node) {
+    if ($node->bundle() == 'splash') {
+      $suggestions[] = implode('__', ['node', $node->bundle(), $node->get('field_tipo')->value]);
+    }
+  }
+}

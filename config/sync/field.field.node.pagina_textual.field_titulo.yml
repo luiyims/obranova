@@ -1,0 +1,19 @@
+uuid: 16025edf-c99f-4571-aa4f-e472c1b953ee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.pagina_textual
+id: node.pagina_textual.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: pagina_textual
+label: Titulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

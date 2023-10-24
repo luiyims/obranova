@@ -1,0 +1,21 @@
+uuid: 67df2e24-d139-4c42-a191-e7f350dba689
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo
+    - node.type.splash
+  module:
+    - metatag
+id: node.splash.field_seo
+field_name: field_seo
+entity_type: node
+bundle: splash
+label: SEO
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

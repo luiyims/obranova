@@ -1,0 +1,17 @@
+Index: src/Plugin/simple_sitemap/UrlGenerator/CustomUrlGenerator.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Plugin/simple_sitemap/UrlGenerator/CustomUrlGenerator.php b/src/Plugin/simple_sitemap/UrlGenerator/CustomUrlGenerator.php
+--- a/src/Plugin/simple_sitemap/UrlGenerator/CustomUrlGenerator.php	(revision fa069bfb371b5d5027d1ac3c476a8c44ae72606e)
++++ b/src/Plugin/simple_sitemap/UrlGenerator/CustomUrlGenerator.php	(date 1612524709439)
+@@ -120,7 +120,7 @@
+ 
+     $path_data = [
+       'url' => $url_object,
+-      'lastmod' => method_exists($entity, 'getChangedTime')
++      'lastmod' => ($entity && method_exists($entity, 'getChangedTime'))
+         ? date('c', $entity->getChangedTime()) : NULL,
+       'priority' => isset($data_set['priority']) ? $data_set['priority'] : NULL,
+       'changefreq' => !empty($data_set['changefreq']) ? $data_set['changefreq'] : NULL,

@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: OhypfKr4_Eo8XwXg3Sios05lN-LjxOhSdSOSkEN9Ndo
+langcode: es
+logo:
+  use_default: false
+  path: themes/custom/frontend/assets/gin/logo_gin_login.svg
+brand_image:
+  use_default: true

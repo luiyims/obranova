@@ -1,0 +1,8 @@
+/* Pon aquí tu css para el login/register/reset_pass de GIN */
+
+/* Centrar logo */
+body.gin-login .user-form-page .content-header a {
+    justify-content: center;
+  }
+  
+/* Fin centrar logo */  

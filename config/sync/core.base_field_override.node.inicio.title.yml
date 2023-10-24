@@ -1,0 +1,18 @@
+uuid: dd651ea3-a15e-4cf6-87bb-53ccb29f94e8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.inicio
+id: node.inicio.title
+field_name: title
+entity_type: node
+bundle: inicio
+label: 'Título administrativo'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

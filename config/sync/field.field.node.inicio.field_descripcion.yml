@@ -1,0 +1,21 @@
+uuid: 00363733-77d6-4520-9ee2-860d659076cb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.inicio
+  module:
+    - text
+id: node.inicio.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: inicio
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

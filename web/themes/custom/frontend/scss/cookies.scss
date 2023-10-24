@@ -1,0 +1,151 @@
+/* COOKIES */
+.cookiesjsr--app .cookiesjsr-banner {
+  background-color: $color-primario !important;
+  flex-direction: column !important;
+  padding: 12px !important;
+  width: 100% !important;
+  .cookiesjsr-links.links--row {
+    margin: 5px 0 10px !important;
+    a:hover {
+      color: white !important;
+    }
+  }
+  .cookiesjsr-banner--action,
+  .cookiesjsr-banner--info {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .cookiesjsr-banner--info {
+    font-size: 12px !important;
+  }
+  .cookiesjsr-btn {
+    border-radius: 6px;
+    margin: 0 4px !important;
+    width: initial !important;
+    min-height: initial !important;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-width: 1px;
+    text-transform: none;
+    &:hover {
+      background-color: white !important;
+      color: $color-primario !important;
+    }
+  }
+  .cookiesjsr-btn.cookiesjsr-settings {
+    background-color: $color-primario !important;
+    display: block !important;
+    &:hover {
+      background-color: white !important;
+    }
+  }
+  .cookiesjsr-btn.important {
+    color: $color-primario !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cookiesjsr--app .cookiesjsr-banner .cookiesjsr-btn {
+    padding: 6px 12px;
+    font-size: 11px;
+    margin-bottom: 6px !important;
+  }
+  .cookiesjsr-banner--action {
+    flex-direction: column;
+  }
+  .cookiesjsr--app .cookiesjsr-banner {
+    padding: 15px !important;
+  }
+}
+.cookiesjsr--app input[type='checkbox'] {
+  border: none;
+  background-image: none !important;
+  background-color: transparent !important;
+}
+.cookiesjsr-layer--header {
+  position: absolute !important;
+}
+.cookiesjsr-layer {
+  padding-top: 0 !important;
+}
+.cookiesjsr-service-group--tab {
+  background-color: white !important;
+  border-radius: 0;
+  font-size: 14px;
+  color: $color-primario;
+  &:hover {
+    background-color: white !important;
+  }
+}
+.cookiesjsr-banner {
+  background-color: $color-primario !important;
+  padding: 1em;
+  border-top: 1px solid white;
+}
+.cookiesjsr-banner .cookiesjsr-banner--text {
+  text-align: justify;
+}
+.cookiesjsr-banner .cookiesjsr-btn {
+  background-color: $color-primario !important;
+}
+.cookiesjsr-banner .cookiesjsr-btn.important {
+  background-color: white !important;
+  color: $color-primario !important;
+}
+.cookiesjsr-banner ul.cookiesjsr-links a {
+  font-weight: bold;
+}
+.cookiesjsr-service-group.active .cookiesjsr-service-group--tab {
+  background-color: $color-primario !important;
+}
+.cookiesjsr-service-group.active .cookiesjsr-service-group--content {
+  background-color: white !important;
+  color: $color-primario;
+  text-align: justify;
+}
+.cookiesjsr-service--description h3 {
+  color: $color-primario !important;
+  font-weight: bold;
+}
+.cookiesjsr-service--links a,
+.cookiesjsr-service--links a:active,
+.cookiesjsr-service--links a:hover,
+.cookiesjsr-service--links a:visited {
+  color: $color-primario !important;
+  text-decoration: underline;
+}
+.cookiesjsr-btn.invert {
+  border-color: $color-primario !important;
+  color: $color-primario !important;
+  border-radius: 8px;
+}
+.cookiesjsr-btn.invert.important {
+  background-color: $color-primario !important;
+  color: white !important;
+}
+.cookiesjsr-switch:after {
+  background-color: $color-primario !important;
+  box-shadow: none !important;
+  top: -1px;
+}
+label.cookiesjsr-switch {
+  border: 1px solid gray;
+  box-shadow: none;
+}
+.cookiesjsr-switch.active {
+  background-color: $color-primario !important;
+}
+.cookiesjsr-switch.active:after {
+  background-color: white !important;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1031;
+  display: block;
+}

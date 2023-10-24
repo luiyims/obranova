@@ -1,0 +1,15 @@
+# corporativa_config.crear_usuario:
+#   route_name: user.admin_create
+#   title: 'Crear usuario'
+#   weight: -20
+#   appears_on:
+#     - view.clientes.page_1
+
+# corporativa_config.addcontent.maquina:
+#   route_name: node.add
+#   route_parameters:
+#     node_type: 'maquina'
+#   title: 'Crear maquina'
+#   weight: -20
+#   appears_on:
+#     - view.maquinas.page_1

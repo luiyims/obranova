@@ -1,0 +1,20 @@
+uuid: dcda3219-15c8-468a-b553-ed26fa2431fd
+langcode: es
+status: true
+dependencies:
+  module:
+    - logos
+  theme:
+    - frontend
+id: logopie
+theme: frontend
+region: footer
+weight: -4
+provider: null
+plugin: block_logo_footer
+settings:
+  id: block_logo_footer
+  label: 'Logo pie'
+  label_display: '0'
+  provider: logos
+visibility: {  }

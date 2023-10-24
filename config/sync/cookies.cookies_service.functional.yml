@@ -1,0 +1,19 @@
+uuid: cde8d4fd-8b6c-4b44-84df-7fc9ad0f6222
+langcode: es
+status: true
+dependencies: {  }
+id: functional
+label: 'Required functional'
+group: functional
+info:
+  value: ''
+  format: html_basico
+consentRequired: false
+purpose: ''
+placeholderMainText: 'Este contenido está bloqueado porque no se han aceptado las cookies funcionales requeridas.'
+placeholderAcceptText: 'Aceptar solo las cookies funcionales requeridas'
+processor: ''
+processorContact: ''
+processorUrl: ''
+processorPrivacyPolicyUrl: ''
+processorCookiePolicyUrl: ''

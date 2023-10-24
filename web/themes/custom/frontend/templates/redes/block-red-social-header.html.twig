@@ -1,0 +1,7 @@
+<div class="wrapper-redes-sociales redes-sociales-header">
+  {% if redes %}
+    {% for red in redes %}
+      <a href="{{ red.url }}" target="_blank"><img src="{{ file_url(red.icono.fileuri) }}" alt=""></a>
+    {% endfor %}
+  {% endif %}
+</div>

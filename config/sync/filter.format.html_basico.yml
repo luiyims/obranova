@@ -1,0 +1,35 @@
+uuid: e887f1ee-b13d-4a65-b4f5-c837002dfbeb
+langcode: es
+status: true
+dependencies: {  }
+name: 'HTML básico'
+format: html_basico
+weight: 0
+filters:
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_html_image_secure:
+    id: filter_html_image_secure
+    provider: filter
+    status: true
+    weight: 9
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol type start> <li> <dl> <dt> <dd> <h6 id> <img src alt data-entity-type data-entity-uuid data-align data-caption> <u> <s> <span> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <p> <h1> <h2 id class="G-txt--xxgigante"> <h3 id class="G-txt--xgigante"> <h4 id class="G-txt--xxl"> <h5 id class="G-txt--l">'
+      filter_html_help: true
+      filter_html_nofollow: false

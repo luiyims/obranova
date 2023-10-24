@@ -1,0 +1,11 @@
+uuid: 14351b29-2949-457c-9c4b-b2d467045598
+langcode: es
+status: true
+dependencies:
+  config:
+    - simple_sitemap.type.default_hreflang
+id: default
+label: Default
+description: null
+type: default_hreflang
+weight: 0

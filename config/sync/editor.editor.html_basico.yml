@@ -1,0 +1,73 @@
+uuid: ccc477a5-4189-46b3-8581-6977218368ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.html_basico
+  module:
+    - ckeditor
+format: html_basico
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formato
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Strike
+        -
+          name: Texto
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+        -
+          name: Componentes
+          items:
+            - Styles
+            - Font
+            - RemoveFormat
+            - BGColor
+            - TextColor
+        -
+          name: Listas
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Enlaces
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+            - Table
+        -
+          name: Herramientas
+          items:
+            - Source
+            - Maximize
+  plugins:
+    stylescombo:
+      styles: "p.G-txt--supergigante|P Texto 52\r\nh1.G-txt--supergigante|H1 Texto 52\r\np.G-txt--xxgigante|P Texto 48\r\nh2.G-txt--xxgigante|H2 Texto 48\r\np.G-txt--xgigante|P Texto 44\r\nh3.G-txt--xgigante|H3 Texto 44\r\np.G-txt--xxl|P Texto 36\r\nh4.G-txt--xxl|H4 Texto 36\r\np.G-txt--l|P Texto 28\r\nh5.G-txt--l|H5 Texto 28\r\np.G-txt--xxxm|P Texto 24\r\np.G-txt--xxm|P Texto 20\r\np.G-txt--xm|P Texto 18\r\np.G-txt--m|P Texto 16\r\np.G-txt--xxxs|P Texto 14"
+    font:
+      font_names: ''
+      font_sizes: ''
+    colorbutton:
+      colors: '27aae1,054871,919191,ffffff'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

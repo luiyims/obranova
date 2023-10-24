@@ -1,0 +1,18 @@
+uuid: f3e05f9e-7835-46f0-bd3c-ff93fc86a8b9
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Inicio
+type: inicio
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

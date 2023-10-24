@@ -1,0 +1,74 @@
+uuid: 3dee151f-5dfb-4dd0-b785-e5a39a3a2622
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.pagina_textual.field_descripcion
+    - field.field.node.pagina_textual.field_seo
+    - field.field.node.pagina_textual.field_titulo
+    - node.type.pagina_textual
+  module:
+    - field_layout
+    - layout_discovery
+    - metatag
+    - path
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.pagina_textual.default
+targetEntityType: node
+bundle: pagina_textual
+mode: default
+content:
+  field_descripcion:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_seo:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+  field_titulo:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

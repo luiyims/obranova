@@ -1,0 +1,26 @@
+uuid: c91546a3-651a-4e58-925f-97971e18553c
+langcode: es
+status: false
+dependencies: {  }
+id: pre
+label: Pre
+description: "--Cookies Gtag (Servicio)\r\n--Gtag (Módulo)\r\n--System Site\r\n--Mail System\r\n--Mime Mail\r\n--PHPMailer\r\n--SimpleSitemap\r\n--Registros y errores\r\n--Modo de mantenimiento\r\n--Performance"
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/pre
+module:
+  cookies_gtag: 0
+  google_tag: 0
+theme: {  }
+complete_list:
+  - mailsystem.settings
+  - mimemail.settings
+  - phpmailer_smtp.settings
+  - simple_sitemap.settings
+  - system.logging
+  - system.maintenance
+  - system.performance
+  - system.site
+  - google_tag.container.contenedor_gtag_produccion
+partial_list: {  }

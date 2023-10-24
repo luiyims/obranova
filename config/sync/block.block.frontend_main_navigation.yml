@@ -1,0 +1,27 @@
+uuid: 7f692575-875b-4a82-b9b9-e972eb3c8b54
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - frontend
+_core:
+  default_config_hash: Fm7sDs2U1u99MaVOZEZqa-QOJrrUiQMWJb1jMozYO48
+id: frontend_main_navigation
+theme: frontend
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

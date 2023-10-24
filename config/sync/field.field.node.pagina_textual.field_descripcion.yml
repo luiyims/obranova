@@ -1,0 +1,21 @@
+uuid: 0678d3e9-f2cd-41ef-879c-3f63c42ce759
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.pagina_textual
+  module:
+    - text
+id: node.pagina_textual.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: pagina_textual
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

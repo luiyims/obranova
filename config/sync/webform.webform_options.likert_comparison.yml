@@ -1,0 +1,19 @@
+uuid: 6a313ad0-90f0-4b34-94c5-ded911482163
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: gZCLESMdXmEZxHqnQFx7a0rUefrkVuFzHSMnWe0qioM
+id: likert_comparison
+label: 'Likert: Comparison'
+category: Likert
+likert: true
+options: |
+  1: Strongly Disagree
+  2: Disagree
+  3: Neutral
+  4: Agree
+  5: Strongly Agree

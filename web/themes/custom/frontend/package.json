@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass scss/import.scss css/style.css && postcss css/style.css -o css/style.min.css",
+    "watch:css": "sass --watch scss/import.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.6",
+    "stylelint": "^15.9.0",
+    "stylelint-config-recommended": "^12.0.0"
+  }
+}

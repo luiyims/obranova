@@ -1,0 +1,20 @@
+uuid: cd36b066-be39-4437-934c-69ab36ed9dc8
+langcode: es
+status: false
+dependencies:
+  module:
+    - cookies
+  theme:
+    - frontend
+id: cookiesui
+theme: frontend
+region: content
+weight: 0
+provider: null
+plugin: cookies_ui_block
+settings:
+  id: cookies_ui_block
+  label: 'Cookies UI'
+  label_display: '0'
+  provider: cookies
+visibility: {  }

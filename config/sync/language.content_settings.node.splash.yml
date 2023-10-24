@@ -1,0 +1,11 @@
+uuid: 56c39059-8fba-453c-9ec0-1438fd8a0836
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.splash
+id: node.splash
+target_entity_type_id: node
+target_bundle: splash
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,13 @@
+<div class="G-fondo--blanco G-max--100">
+  <div class="G-margen--auto" style="padding: 160px 20px 115px;max-width: 760px;">
+    {% if node.field_titulo.value %}
+      <p class="G-margen--xxgigante G-margen--lr-0 G-margen--top-0 G-padding--xl G-padding--lr-0 G-padding--top-0 G-txt--xxl G-color--primario G-txt--negrita G-txt--cen E-linea-titulo G-pos--relativo" style="line-height: 1;">{{ node.field_titulo.value }}</p>
+    {% endif %}
+    {% if node.field_descripcion.value %}
+      <div class="E-font-montserrat E-txt--18 G-color--terciario G-margen--0">{{ node.field_descripcion.value|raw }}</div>
+    {% endif %}
+    <div class="banner-cookies G-txt--cen">
+      <a href="#modificarCookies" class="G-boton--primario">{{ "Modificar cookies" | t }}</a>
+    </div>
+  </div>
+</div>

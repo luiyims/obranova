@@ -1,0 +1,14 @@
+uuid: 5a34da7f-9766-45aa-9a31-3624bbf35da8
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: contenido
+label: Contenido
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

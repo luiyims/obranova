@@ -1,0 +1,6 @@
+name: 'Corporativa Config'
+type: module
+description: 'Configuraciones generales del sitio'
+package: 'Corporativa Custom'
+core_version_requirement: ^9
+version: '1.0.0'

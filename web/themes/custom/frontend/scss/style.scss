@@ -1,0 +1,11 @@
+.block-block-logo-header img {
+  width: 40px;
+}
+#toolbar-administration,
+.toolbar-menu-administration {
+  z-index: 1031;
+}
+header {
+  position: sticky !important;
+  z-index: 99 !important;
+}

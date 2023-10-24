@@ -1,0 +1,27 @@
+uuid: 585b306c-7e5d-487c-a7d4-5f732d21ed05
+langcode: es
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - frontend
+_core:
+  default_config_hash: YRZjNp4d68NjJAVhrrUrXKwpV12i7OFWg4MY6Bsd0mw
+id: frontend_account_menu
+theme: frontend
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

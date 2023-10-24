@@ -1,0 +1,43 @@
+uuid: 2a5c5ce8-e187-4029-8ebb-b48adeb96dac
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.inicio
+    - node.type.pagina_textual
+    - node.type.splash
+  module:
+    - corporate
+    - email
+    - logos
+    - node
+    - redes
+    - system
+    - taxonomy
+    - toolbar
+id: propietario
+label: Propietario
+weight: 2
+is_admin: null
+permissions:
+  - 'access admin logos'
+  - 'access admin redes'
+  - 'access content overview'
+  - 'access site configuration'
+  - 'access site in maintenance mode'
+  - 'access structure'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'administer red_social entities'
+  - 'administer users'
+  - 'edit any inicio content'
+  - 'edit any pagina_textual content'
+  - 'edit any splash content'
+  - 'edit logo entities'
+  - 'edit mail entities'
+  - 'edit own pagina_textual content'
+  - 'edit own splash content'
+  - 'view logo entities'
+  - 'view mail entities'
+  - 'view the administration theme'

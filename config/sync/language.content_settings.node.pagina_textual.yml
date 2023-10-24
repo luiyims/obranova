@@ -1,0 +1,11 @@
+uuid: 738eedab-6514-4b3a-a7b4-7b0f175e9fb9
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.pagina_textual
+id: node.pagina_textual
+target_entity_type_id: node
+target_bundle: pagina_textual
+default_langcode: site_default
+language_alterable: false

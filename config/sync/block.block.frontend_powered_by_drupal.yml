@@ -1,0 +1,22 @@
+uuid: ffdebd50-2d13-443d-9fa8-eb03d43ae9fa
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - frontend
+_core:
+  default_config_hash: 2_xxaOb8b_0AUgYFdJLxIBDDwufyh6YozhGfBd97p38
+id: frontend_powered_by_drupal
+theme: frontend
+region: footer
+weight: -2
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

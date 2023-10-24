@@ -1,0 +1,20 @@
+uuid: 7d6d666f-8580-4383-9ec9-e2963288f3f2
+langcode: es
+status: true
+dependencies:
+  module:
+    - logos
+  theme:
+    - frontend
+id: logocabecera
+theme: frontend
+region: nav_branding
+weight: 0
+provider: null
+plugin: block_logo_header
+settings:
+  id: block_logo_header
+  label: 'Logo cabecera'
+  label_display: '0'
+  provider: logos
+visibility: {  }

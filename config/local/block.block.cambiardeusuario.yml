@@ -1,0 +1,23 @@
+uuid: d89dfb6b-2fd9-48d3-b8a7-3a7fa3bc4926
+langcode: es
+status: true
+dependencies:
+  module:
+    - devel
+  theme:
+    - gin
+id: cambiardeusuario
+theme: gin
+region: content
+weight: -1
+provider: null
+plugin: devel_switch_user
+settings:
+  id: devel_switch_user
+  label: 'Cambiar de usuario'
+  label_display: visible
+  provider: devel
+  list_size: 12
+  include_anon: false
+  show_form: true
+visibility: {  }

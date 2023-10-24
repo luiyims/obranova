@@ -1,0 +1,9 @@
+/* Pon aquí tu css para el theme de administración GIN */
+
+/* Paginador vistas usuario rol propietario */
+
+.path-admin .view-content .views-form {
+  margin-bottom: 0 !important;
+}
+
+/* Fin paginador vistas usuario rol propietario */

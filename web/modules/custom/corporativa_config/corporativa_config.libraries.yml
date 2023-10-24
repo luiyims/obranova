@@ -1,0 +1,16 @@
+gin-theme:
+  version: VERSION
+  css:
+    component:
+      css/gin-theme.css: {}
+
+gin-login:
+  version: VERSION
+  css:
+    component:
+      css/gin-login.css: {}
+toolbar-gin:
+  version: VERSION
+  css:
+    component:
+      css/toolbar-gin.css: {}

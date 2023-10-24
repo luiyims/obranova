@@ -1,0 +1,21 @@
+uuid: f782fdc9-ab00-484c-b2e2-e71f7cfa986a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.splash
+  module:
+    - text
+id: node.splash.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: splash
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,35 @@
+uuid: 56bb3eaa-31e4-4588-aafc-760edf4c20c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.pagina_textual.field_descripcion
+    - field.field.node.pagina_textual.field_seo
+    - field.field.node.pagina_textual.field_titulo
+    - node.type.pagina_textual
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.pagina_textual.full
+targetEntityType: node
+bundle: pagina_textual
+mode: full
+content:
+  field_titulo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_descripcion: true
+  field_seo: true
+  langcode: true
+  links: true

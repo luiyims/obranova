@@ -1,0 +1,11 @@
+uuid: c30b6988-1025-40df-82fc-2d8be7c86b02
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Jv3uIJviBj7D282Qu1ZpEQwuOEb3lCcDvx-XVHeOJpw
+id: performance
+label: Performance
+weight: 30
+title: 'Cookies de rendimiento'
+details: 'Estas cookies nos permiten contar las visitas y fuentes de tráfico para poder evaluar el rendimiento de nuestro sitio y mejorarlo. Nos ayudan a saber qué páginas son las más o las menos visitadas, y cómo los visitantes navegan por el sitio. Toda la información que recogen estas cookies es agregada y, por lo tanto, es anónima. Si no permite utilizar estas cookies, no sabremos cuándo visitó nuestro sitio y no podremos evaluar si funcionó correctamente.'

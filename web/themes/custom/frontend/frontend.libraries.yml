@@ -1,0 +1,15 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+material_design_icons:
+  version: VERSION
+  css:
+    component:
+      //fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp: {}
+cookies:
+  version: VERSION
+  js:
+    js/cookies.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,27 @@
+uuid: 4d8adba5-199b-4dca-99f9-dcff70dd5b7b
+langcode: es
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: "--Block Cambio de Usuario \r\n--Devel (Módulo)\r\n--System Menu devel\r\n--System Site\r\n--Mail System\r\n--Mime Mail\r\n--PHPMailer\r\n--SimpleSitemap\r\n--Registros y errores\r\n--Modo de mantenimiento\r\n--Performance"
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/local
+module:
+  devel: 0
+  devel_php: 0
+theme: {  }
+complete_list:
+  - devel.settings
+  - devel.toolbar.settings
+  - mailsystem.settings
+  - mimemail.settings
+  - phpmailer_smtp.settings
+  - simple_sitemap.settings
+  - system.logging
+  - system.maintenance
+  - system.performance
+  - system.site
+partial_list: {  }

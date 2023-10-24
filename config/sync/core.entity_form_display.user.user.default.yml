@@ -1,0 +1,42 @@
+uuid: d55cda0b-0393-4e7d-a1f5-040c6cb11f00
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_layout
+    - layout_discovery
+    - path
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  language:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

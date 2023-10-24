@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: rLKGzzC9TqjbEZiBoiyMpOSyZgldADa5SzvbA2gQDxE
+langcode: es
+name: Corporativa
+mail: corporativa_drupal@dev.com
+simple_address: false
+sitestyle: true
+textonly: false
+linkonly: false
+user_plaintext_field: ''
+format: html_basico
+preserve_class: false
+advanced:
+  incoming: false
+  key: N4Mo47Iv4H06ApIvmvnhh0MbenRy-giPbjxhvsf1kz8

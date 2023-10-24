@@ -1,0 +1,77 @@
+{#
+/**
+ * @file
+ * Default template to format a HTML email using the Mime Mail module.
+ *
+ * Copy this file in your default theme folder to create a custom themed email.
+ * If you modify this template you MUST be sure to keep the html, body, and
+ * header tags. This template should produce a fully-formed HTML document.
+ * Failure to include these will result in a malformed email and possibly
+ * errors shown to the user when sending email.
+ *
+ * To override this template for all emails sent by a given module,
+ * rename this template to mimemail-messages--[module].html.twig.
+ *
+ * To override this template for a specific email sent by a given module,
+ * rename this template to mimemail-messages--[module]--[key].html.twig.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the body element of the message.
+ * - key: The message identifier.
+ * - module: The machine name of the sending module.
+ * - css: Internal style sheets.
+ * - recipient: The recipient of the message.
+ * - subject: The message subject.
+ * - body: The message body.
+ *
+ * @see template_preprocess_mimemail_message()
+ *
+ * @ingroup themeable
+ */
+#}
+{% set classes = module ? (key ? module ~ '-' ~ key) %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Obra Nova</title>
+</head>
+<body id="mimemail-body"{{ attributes.addClass(classes) }}>
+<table width="100%" border="0" align="center" cellpadding="50">
+  <tr>
+    <td bgcolor="#E9E9E9">
+      <table border="0" align="center" cellpadding="15" cellspacing="0"
+             style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; color:gray;width: 500px;">
+        {% if site_logo %}
+          <tr>
+            <td align="center" valign="middle" bgcolor="#FFFFFF" style="padding: 20px 0 30px;"><img src="{{ site_logo }}" style="text-align:center; max-width: 230px;">
+            </td>
+          </tr>
+        {% endif %}
+        <tr>
+          <td valign="middle" bgcolor="#FFFFFF">{{ body | raw }}</td>
+        </tr>
+        <tr bgcolor='#E9E9E9'>
+          <td align='center' style='padding: 30px; color: black;'>
+            <p style='font-weight: bold; width: 600px; text-align: center;'>-- PROTECCIÓN DE DATOS --</p>
+            <p style='text-align: justify; font-size: 12px' >
+              De acuerdo con el Reglamento (UE) 2016/679 sobre Protección de Datos, le informamos que sus datos personales serán usados
+              para nuestra relación y poder prestarle nuestros servicios. Dichos datos son necesarios para poder relacionarnos con usted,
+              lo que nos permite el uso de su información dentro de la legalidad. Asimismo, podrán tener conocimiento de su información aquellas
+              entidades que necesiten tener acceso a la misma para que podamos prestarle nuestros servicios o venderle nuestros productos. Conservaremos
+              sus datos durante nuestra relación y mientras nos obliguen las leyes aplicables. No obstante, puede ejercitar sus derechos de Acceso,
+              Rectificación, Supresión, Oposición y Limitación al tratamiento de sus datos, así como a la portabilidad de los mismos enviando un email
+              a <a href='mailto:lopd@lopd.com'>lopd@lopd.com</a> aportando: Nombre y Apellidos, fotocopia de D.N.I. o documento
+              acreditativo, domicilio a efectos de notificaciones, y petición en la que se concrete la solicitud. Este mensaje y sus documentos
+              anexos son privados y confidenciales y están dirigidos exclusivamente a sus destinatarios. Si por error, ha recibido este mensaje y
+              no se encuentra entre los destinatarios, por favor, no use, informe, distribuya, imprima o copie su contenido por ningún medio. Le rogamos
+              lo comunique al remitente y borre todo su contenido.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

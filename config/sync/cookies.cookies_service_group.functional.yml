@@ -1,0 +1,9 @@
+uuid: 18b2849e-b075-4a91-b650-bb4249511131
+langcode: es
+status: true
+dependencies: {  }
+id: functional
+label: Master
+weight: 1
+title: 'Cookies técnicas y necesarias'
+details: 'Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas. Se configuran en respuesta a sus acciones realizadas al solicitar servicios, como establecer sus preferencias de privacidad, iniciar sesión o completar formularios. Puede configurar su navegador para bloquear o alertar sobre estas cookies, pero algunas áreas del sitio no funcionarán. Estas cookies no almacenan ninguna información de identificación personal.'

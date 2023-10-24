@@ -1,0 +1,23 @@
+uuid: e4803bc3-7447-4963-80f7-86410be4d985
+langcode: es
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: "--System Site\r\n--Mail System\r\n--Mime Mail\r\n--PHPMailer\r\n--SimpleSitemap\r\n--Registros y errores\r\n--Modo de mantenimiento\r\n--Performance"
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/dev
+module: {  }
+theme: {  }
+complete_list:
+  - mailsystem.settings
+  - mimemail.settings
+  - phpmailer_smtp.settings
+  - simple_sitemap.settings
+  - system.logging
+  - system.maintenance
+  - system.performance
+  - system.site
+partial_list: {  }
