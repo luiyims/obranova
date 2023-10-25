@@ -12,6 +12,13 @@ label: 'Google Tag Manager'
 group: performance
 info:
   value: ''
-  format: full_html
-url: 'https://policies.google.com/privacy'
-consent: true
+  format: html_basico
+consentRequired: true
+purpose: ''
+placeholderMainText: 'Este contenido ha sido bloqueado'
+placeholderAcceptText: 'Aceptar cookies'
+processor: ''
+processorContact: ''
+processorUrl: ''
+processorPrivacyPolicyUrl: ''
+processorCookiePolicyUrl: ''

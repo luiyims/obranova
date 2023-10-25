@@ -2,8 +2,8 @@ _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 langcode: es
 uuid: 2c9b7e94-3254-47fc-8519-e265bf32022a
-name: Corporativa
-mail: corporativa_drupal@creacionwebprofesional.com
+name: ObraNovaDigital
+mail: no-reply@obranovadigital.com
 slogan: ''
 page:
   403: /node/2
