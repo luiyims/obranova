@@ -1,7 +1,7 @@
 _core:
   default_config_hash: rLKGzzC9TqjbEZiBoiyMpOSyZgldADa5SzvbA2gQDxE
 langcode: es
-name: Corporativa
+name: ObraNovaDigital
 mail: corporativa_drupal@dev.com
 simple_address: false
 sitestyle: true
