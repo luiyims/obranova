@@ -1,0 +1,23 @@
+uuid: e20d9f83-119c-47af-8db1-ed879c6075d8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enlace
+    - node.type.prueba_luiseduardo
+  module:
+    - link
+id: node.prueba_luiseduardo.field_enlace
+field_name: field_enlace
+entity_type: node
+bundle: prueba_luiseduardo
+label: Enlace
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

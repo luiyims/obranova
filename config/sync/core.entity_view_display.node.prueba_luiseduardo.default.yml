@@ -1,0 +1,56 @@
+uuid: 6bb12193-8383-4f6c-8161-1d285b678236
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.prueba_luiseduardo.body
+    - field.field.node.prueba_luiseduardo.field_enlace
+    - field.field.node.prueba_luiseduardo.field_imagen
+    - node.type.prueba_luiseduardo
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.prueba_luiseduardo.default
+targetEntityType: node
+bundle: prueba_luiseduardo
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_enlace:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_imagen:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

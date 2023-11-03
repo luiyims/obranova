@@ -1,0 +1,20 @@
+uuid: 3899ab2d-6b3d-47d9-a76f-82e44675e986
+langcode: es
+status: true
+dependencies: {  }
+name: medium_image
+label: 'medium image'
+effects:
+  1df2359e-2f80-430e-9e2d-0057be54e517:
+    uuid: 1df2359e-2f80-430e-9e2d-0057be54e517
+    id: image_convert
+    weight: -9
+    data:
+      extension: webp
+  384a63c4-761f-47a0-9303-5d21f1147990:
+    uuid: 384a63c4-761f-47a0-9303-5d21f1147990
+    id: image_resize
+    weight: -10
+    data:
+      width: 320
+      height: 320

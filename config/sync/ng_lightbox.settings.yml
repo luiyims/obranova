@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: ySh6lmKUH2SCk5s532zkdNU9PeyNywkaFGVLbWBbRWY
+langcode: es
+patterns: "/node/*/edit*\r\n/clone/*/quick_clone*\r\n/node/*/delete*"
+default_width: 700
+lightbox_class: ''
+skip_admin_paths: false
+renderer: drupal_colorbox
