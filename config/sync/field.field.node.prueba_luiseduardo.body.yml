@@ -1,0 +1,23 @@
+uuid: bc10330c-90c7-4088-a537-13b3c2da8507
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.prueba_luiseduardo
+  module:
+    - text
+id: node.prueba_luiseduardo.body
+field_name: body
+entity_type: node
+bundle: prueba_luiseduardo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

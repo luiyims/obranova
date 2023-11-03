@@ -1,0 +1,22 @@
+uuid: 695c37c4-3158-4467-8a14-d5ff7bbe055b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.prueba_luiseduardo
+id: node.prueba_luiseduardo.promote
+field_name: promote
+entity_type: node
+bundle: prueba_luiseduardo
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean
