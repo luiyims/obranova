@@ -13857,4 +13857,13 @@ header {
   text-align: center;
 }
 
+.node-content .node-content__title {
+  color: #27aae1;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.node-content .node-content__link a {
+  font-weight: bold;
+  padding: 0.6em;
+}
+
 /*# sourceMappingURL=style.css.map */

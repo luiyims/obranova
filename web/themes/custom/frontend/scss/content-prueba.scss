@@ -1,0 +1,16 @@
+.node-content {
+  .node-content__title {
+    color: $color-primario;
+    font-family: $font-family-monospace;
+  }
+  .node-content__body {
+  }
+  .node-content__image {
+  }
+  .node-content__link {
+    a {
+        font-weight: bold;
+        padding: 0.6em;
+    }
+  }
+}
